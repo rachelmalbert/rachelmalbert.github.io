@@ -1,0 +1,23 @@
+.contact {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  background-color: #3498db;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.contact-button:hover {
+  background-color: #2980b9;
+}

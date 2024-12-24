@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  width: 100%;
+  background-color: #f4f4f4;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5rem 0rem;
+}
+
+.about-content {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem 2rem;
+}
+
+.about h2 {
+  justify-self: center;
+  align-self: center;
+  font-size: 2rem;
+  /* margin-bottom: 0; */
+  border-bottom: 3px solid black;
+}
+
+.about p {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  /* margin: 0 auto; */
+}
+
+.avatar {
+  /* border: 2px solid black; */
+  width: 10rem;
+  height: 20rem;
+}
+
+.invisible {
+  width: 8rem;
+}
