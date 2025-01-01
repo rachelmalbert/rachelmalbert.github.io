@@ -1,21 +1,30 @@
 import "../styles/Hero.css";
 import React from "react";
 import Navbar from "./Navbar";
-import image from "../assets/images/avatar.png";
+import image from "../assets/images/avatar.svg";
 
 function Hero() {
   return (
     <section id="hero" className="hero">
-      <div className="overlay"></div> {/* The overlay div */}
+      {/* <div className="overlay"></div>  */}
       <Navbar />
       <div className="hero-content">
-        <h1>RACHEL ALBERT</h1>
-        <p> Recent Computer Science Graduate | Aspiring Software Developer</p>
-        <a href="#about" className="cta-button">
-          Download Resume
-        </a>
+        <div className="left">
+          <h3>Hi, my name is</h3>
+          <h1>Rachel Albert</h1>
+          <p>Lorem Ipsum blah blah blah Lorem Ipsum.</p>
+          <a href="#about" className="cta-button">
+            Download Resume
+          </a>
+        </div>
+        <div class="avatar-container">
+          <img className="avatar" src={image}></img>
+        </div>
       </div>
+      {/* <div class="blob1"></div> */}
+
       <button className="scroll-btn"> V </button>
+      {/* <div className="scroll-btn"></div> */}
     </section>
   );
 }
