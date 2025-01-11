@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rachelmalbert.github.io/rachelmalbert.github.io/static/css/main.6014d08a.css",
+    "main.js": "/rachelmalbert.github.io/rachelmalbert.github.io/static/js/main.af51a472.js",
+    "static/media/avatar.svg": "/rachelmalbert.github.io/rachelmalbert.github.io/static/media/avatar.9ff2ce5d8b4415c8b82755f8d766830c.svg",
+    "index.html": "/rachelmalbert.github.io/rachelmalbert.github.io/index.html",
+    "main.6014d08a.css.map": "/rachelmalbert.github.io/rachelmalbert.github.io/static/css/main.6014d08a.css.map",
+    "main.af51a472.js.map": "/rachelmalbert.github.io/rachelmalbert.github.io/static/js/main.af51a472.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6014d08a.css",
+    "static/js/main.af51a472.js"
+  ]
+}
