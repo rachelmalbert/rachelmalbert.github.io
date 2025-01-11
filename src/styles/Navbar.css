@@ -22,7 +22,8 @@
 }
 
 .navbar li:hover {
-  background-color: rgba(211, 211, 211, 0.531);
+  background-color: #ccd5f7;
+  /* background-color: rgba(211, 211, 211, 0.531); */
 }
 
 .navbar li a {
@@ -30,4 +31,20 @@
   text-decoration: none;
   font-weight: 500;
   color: black;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    gap: 0rem;
+    padding-top: 0.75rem;
+    background-color: transparent;
+    border: none;
+  }
+  .navbar li {
+    padding: 0rem;
+  }
+  .navbar li a {
+    padding: 0rem 0.5rem;
+  }
 }

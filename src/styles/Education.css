@@ -1,4 +1,4 @@
-.education {
+/* .education {
   display: flex;
   flex-direction: column;
   padding: 4rem 2rem;
@@ -19,7 +19,6 @@
   align-self: center;
 }
 
-/* Education Item */
 .education-item {
   display: flex;
   gap: 20px;
@@ -31,7 +30,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Degree Info */
 .degree-info {
   display: flex;
   flex-direction: column;
@@ -46,7 +44,6 @@
 }
 
 .degree-info p {
-  /* margin: 0; */
 }
 
 .institution {
@@ -60,7 +57,6 @@
   color: #888;
 }
 
-/* Highlights list */
 .highlights {
   list-style: none;
   padding: 0;
@@ -82,4 +78,4 @@
   color: #3498db;
   font-size: 1.5em;
   top: 0;
-}
+} */

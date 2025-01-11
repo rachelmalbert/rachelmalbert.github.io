@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   background-color: #f4f4f4;
   text-align: center;
   gap: 2rem;
@@ -47,4 +47,16 @@
   color: #333;
   margin: 0;
   text-transform: capitalize; /* Capitalize each language name */
+}
+
+@media (max-width: 768px) {
+  .skill img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0rem;
+  }
 }

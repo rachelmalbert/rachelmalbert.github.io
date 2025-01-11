@@ -2,11 +2,11 @@ import "../styles/Hero.css";
 import React from "react";
 import Navbar from "./Navbar";
 import image from "../assets/images/avatar.svg";
+import AnchorLink from "react-anchor-link-smooth-scroll"; // Import the anchor link component
 
 function Hero() {
   return (
     <section id="hero" className="hero">
-      {/* <div className="overlay"></div>  */}
       <Navbar />
       <div className="hero-content">
         <div className="left">
@@ -14,17 +14,17 @@ function Hero() {
           <h1>Rachel Albert</h1>
           <p>Lorem Ipsum blah blah blah Lorem Ipsum.</p>
           <a href="#about" className="cta-button">
-            Download Resume
+            <i class="fa-solid fa-download download-icon"></i> Download Resume
           </a>
         </div>
         <div class="avatar-container">
-          <img className="avatar" src={image}></img>
+          <img className="avatar" src={image} alt="avatar"></img>
         </div>
       </div>
-      {/* <div class="blob1"></div> */}
 
-      <button className="scroll-btn"> V </button>
-      {/* <div className="scroll-btn"></div> */}
+      <a href="#projects" class="scroll-down-btn">
+        <AnchorLink href="#projects" className="arrow"></AnchorLink>
+      </a>
     </section>
   );
 }

@@ -2,7 +2,6 @@ import "./App.css";
 
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -15,11 +14,10 @@ function App() {
       <Projects />
       <About />
 
-      <Education />
       <Skills />
 
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

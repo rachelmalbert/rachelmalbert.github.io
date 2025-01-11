@@ -14,15 +14,9 @@ const Education = () => {
         </div>
 
         <ul class="highlights">
-          <li>
-            Completed a senior capstone project with machine learning
-            integration
-          </li>
+          <li>Completed a senior capstone project with machine learning integration</li>
           <li>Participated in hackathons and coding competitions</li>
-          <li>
-            Relevant coursework: Data Structures, Algorithms, Artificial
-            Intelligence
-          </li>
+          <li>Relevant coursework: Data Structures, Algorithms, Artificial Intelligence</li>
         </ul>
       </div>
     </section>

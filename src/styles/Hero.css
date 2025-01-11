@@ -18,7 +18,7 @@
   box-sizing: border-box;
   justify-content: space-around;
   padding-left: 5rem;
-  padding-right: 1rem;
+  padding-right: 2rem;
   /* gap: 5rem; */
 }
 
@@ -31,7 +31,7 @@
   padding: 1rem 1.2rem;
   text-decoration: none;
   color: white;
-  /* border-radius: 2rem; */
+  border-radius: 1rem;
   font-size: 1rem;
 }
 
@@ -99,7 +99,7 @@
   height: 700px;
   top: 10%;
   right: 8%;
-  background: radial-gradient(circle, rgba(0, 150, 136, 0.7) 0%, rgba(0, 150, 136, 0.2) 70%);
+  background: radial-gradient(circle, rgba(0, 150, 135, 0.566) 0%, rgba(0, 150, 136, 0.2) 70%);
 }
 
 .hero::after {
@@ -107,7 +107,69 @@
   height: 600px;
   /* top: 30vh;
   right: 5vw;  */
-  background: radial-gradient(circle, rgba(69, 105, 225, 0.7) 0%, rgba(69, 105, 225, 0.2) 70%);
+  background: radial-gradient(circle, rgba(69, 105, 225, 0.488) 0%, rgba(69, 105, 225, 0.2) 70%);
   top: 20%;
   right: 0%;
+}
+
+/* Scroll Down Button Styling */
+.scroll-down-btn {
+  display: inline-block;
+  border: 2px solid rgba(255, 255, 255, 0.7); /* Subtle white border */
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Scroll Down Arrow Styling */
+.arrow {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  animation: arrow-animation 1s infinite alternate; /* Arrow animation */
+  margin: 0 auto;
+}
+
+/* Hover Effect */
+.scroll-down-btn:hover {
+  background-color: rgba(255, 255, 255, 0.4); /* Slightly darker background on hover */
+  transform: scale(1.1); /* Slight scale effect on hover */
+}
+
+@media (max-width: 768px) {
+  .avatar-container {
+    display: none;
+  }
+  .hero-content {
+    padding: 2rem;
+  }
+  .left {
+    width: 100%;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+
+  .hero::before {
+    width: 700px;
+    height: 700px;
+    top: 0%;
+    right: -10%;
+    background: radial-gradient(circle, rgba(0, 150, 135, 0.566) 0%, rgba(0, 150, 136, 0.2) 70%);
+  }
+
+  .hero::after {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(69, 105, 225, 0.488) 0%, rgba(69, 105, 225, 0.2) 70%);
+    top: 10%;
+    right: -20%;
+  }
 }

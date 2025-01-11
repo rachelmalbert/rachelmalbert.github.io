@@ -12,13 +12,13 @@ const Navbar = () => {
           About
         </AnchorLink>
       </li>
-      <li>
+      {/* <li>
         <AnchorLink href="#education" className="nav-link">
           Education
         </AnchorLink>
-      </li>
+      </li> */}
       <li>
-        <AnchorLink href="#projets" className="nav-link">
+        <AnchorLink href="#projects" className="nav-link">
           Projects
         </AnchorLink>
       </li>

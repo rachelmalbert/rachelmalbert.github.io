@@ -2,7 +2,7 @@ import "../styles/Skills.css";
 
 const Skills = () => {
   return (
-    <section class="skills">
+    <section id="skills" class="skills">
       <h2>Skills</h2>
 
       <div class="skills-grid">
