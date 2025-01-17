@@ -9,7 +9,7 @@ const projects = [
     description:
       "Full stack web application that lets users set reading goals, curate their library, and track progress with visualizations to stay on target.",
     github: "https://github.com/rachelmalbert/reading-goals.git",
-    website: "https://www.readinggoals.info",
+    website: "http://www.readinggoals.info/",
   },
   {
     title: "Learn American Sign Language",

@@ -50,6 +50,9 @@
 }
 
 @media (max-width: 768px) {
+  .skills {
+    padding-top: 1rem;
+  }
   .skill img {
     width: 2rem;
     height: 2rem;

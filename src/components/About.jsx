@@ -17,9 +17,12 @@ const About = () => {
             new technologies and tackling new challenges. Currently, I’m looking for a role where I can apply my skills and continue to grow as a
             developer.
           </p>
-          <button className="resume-btn">
+          {/* <button className="resume-btn">
             <i class="fa-solid fa-download download-icon"></i> Download Resume
-          </button>
+          </button> */}
+          <a href="/Albert_Rachel_Resume.pdf" class="resume-btn" download>
+            <i class="fa-solid fa-download download-icon"></i> Download Resume
+          </a>
         </div>
         <div className="interests-education">
           <div>

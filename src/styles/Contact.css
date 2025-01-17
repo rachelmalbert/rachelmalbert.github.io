@@ -1,4 +1,4 @@
-.contact {
+/* .contact {
   padding: 50px;
   background-color: #f4f4f4;
   text-align: center;
@@ -20,4 +20,77 @@
 
 .contact-button:hover {
   background-color: #2980b9;
+} */
+
+/* Contact Section Styling */
+#contact {
+  /* background-color: #f4f4f9; */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Contact Links Styling */
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #0073e6;
+  transform: translateY(-5px);
+}
+
+.contact-link img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-link:hover img {
+  transform: scale(1.2);
+}
+
+.contact-link span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding-top: 1rem !important;
+  }
+  .contact-links {
+    width: 100%;
+    gap: 1rem;
+  }
 }

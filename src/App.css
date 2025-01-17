@@ -14,5 +14,6 @@ body {
   height: 100%;
   box-sizing: border-box;
   overflow: hidden;
+  overflow-x: hidden;
   /* border: 2px solid green; */
 }

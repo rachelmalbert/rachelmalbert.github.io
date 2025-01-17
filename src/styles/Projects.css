@@ -88,7 +88,7 @@
 @media (max-width: 768px) {
   .projects {
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
   }
   .project {
     flex-direction: column; /* Stack image and text vertically on small screens */

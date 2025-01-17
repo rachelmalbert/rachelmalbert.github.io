@@ -12,8 +12,8 @@ function Hero() {
         <div className="left">
           <h3>Hi, my name is</h3>
           <h1>Rachel Albert</h1>
-          <p>Lorem Ipsum blah blah blah Lorem Ipsum.</p>
-          <a href="#about" className="cta-button">
+          <p>Recent CS Graduate | Passionate About Web Development & Database Systems</p>
+          <a href="/Albert_Rachel_Resume.pdf" class="cta-button" download>
             <i class="fa-solid fa-download download-icon"></i> Download Resume
           </a>
         </div>

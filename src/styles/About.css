@@ -15,6 +15,7 @@
   display: flex;
   width: 30%;
   height: 30%;
+  border-radius: 20rem;
 }
 
 .about-photo img {
@@ -68,6 +69,10 @@
   /* border: 2px solid red; */
 }
 
+.interests-education ul {
+  /* color: #666; */
+}
+
 .education {
   display: flex;
   flex-direction: column;
@@ -85,6 +90,7 @@
 .education div {
   display: flex;
   gap: 1rem;
+
   /* flex-direction: column; */
 }
 
@@ -93,16 +99,21 @@
   flex-direction: column;
   gap: 0rem;
 }
+.education div div p {
+  color: black;
+}
 
 .education div div > p:not(:first-child) {
   /* border: 1px solid orange; */
   font-size: 0.9rem;
+  color: black;
 }
 
 @media (max-width: 768px) {
   .about {
     flex-direction: column;
     gap: 0rem;
+    padding-top: 1rem;
   }
   .about-content {
     width: 100%;
