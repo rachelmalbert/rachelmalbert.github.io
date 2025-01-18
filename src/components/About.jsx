@@ -16,9 +16,9 @@ const About = () => {
             {/* Hi! I'm a recent Computer Science graduate with a passion for creating software that solves real-world problems. I really enjoy learning
             new technologies and tackling new challenges. Currently, I’m looking for a role where I can apply my skills and continue to grow as a
             developer. */}
-            Hi! I'm a recent Computer Science graduate with a passion for building software that solves real-world problems. I have a strong interest
-            in database systems and web development, and I enjoy learning new technologies to tackle complex challenges. I'm currently looking for a
-            role where I can apply my skills in these areas and continue growing as a developer.
+            Hi, I'm Rachel! I’m a recent Computer Science graduate with a passion for creating software that solves real-world problems. I’m
+            particularly interested in database systems and web development, and I love exploring new technologies to overcome interesting challenges.
+            I’m currently looking for an opportunity where I can apply my skills and continue growing as a developer.
           </p>
           {/* <button className="resume-btn">
             <i class="fa-solid fa-download download-icon"></i> Download Resume

@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div class="contact-container">
         <h2>Contact</h2>
-        <p>Feel free to reach out to me via any of the following platforms:</p>
+        <p>Feel free to reach out to me via any of the following platforms</p>
         <div class="contact-links">
           <a href="mailto:albert.rachelm@gmail.com" class="contact-link" target="_blank">
             <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email Icon" />

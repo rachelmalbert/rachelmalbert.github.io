@@ -14,14 +14,36 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* border: 5px solid black; */
   box-sizing: border-box;
   justify-content: space-around;
   padding-left: 5rem;
   padding-right: 2rem;
-  /* gap: 5rem; */
 }
 
+/* Styling for the 'Computer Science Graduate' paragraph */
+.degree {
+  font-size: 1.4rem;
+  margin: 15px 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* Styling for the 'Passionate About Web Development' paragraph */
+.passion {
+  font-size: 1.4rem;
+  margin: 10px 0;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.hero-contact-links {
+  display: flex;
+  padding-top: 1rem;
+}
 /* CALL TO ACTION BUTTON */
 .cta-button {
   /* background-color: #000b24d7; */
@@ -47,11 +69,15 @@
   width: 50%;
   flex-direction: column;
   justify-content: center;
-  /* border: 2px solid red; */
   box-sizing: border-box;
 }
 
 .left h1 {
+  font-size: 3.5rem;
+  color: #2c3e50;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 2px;
   margin: 0;
   font-size: 4.5rem;
   line-height: 1;
@@ -59,7 +85,13 @@
 }
 
 .left h3 {
+  font-size: 1.2rem;
+  color: #555;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
   margin: 0;
+  padding-bottom: 1rem;
 }
 
 .left p {

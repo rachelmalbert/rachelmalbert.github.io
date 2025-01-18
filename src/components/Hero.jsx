@@ -12,7 +12,16 @@ function Hero() {
         <div className="left">
           <h3>Hi, my name is</h3>
           <h1>Rachel Albert</h1>
-          <p>Recent CS Graduate | Passionate About Web Development & Database Systems</p>
+          <p class="degree">Computer Science Graduate</p>
+          <div class="hero-contact-links">
+            <a href="https://www.linkedin.com/in/rachel-albert/" class="contact-link" target="_blank">
+              <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn Icon" />
+            </a>
+
+            <a href="https://github.com/rachelmalbert" class="contact-link" target="_blank">
+              <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub Icon" />
+            </a>
+          </div>
           <a href="/Albert_Rachel_Resume.pdf" class="cta-button" download>
             <i class="fa-solid fa-download download-icon"></i> Download Resume
           </a>
