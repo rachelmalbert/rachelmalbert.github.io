@@ -12,18 +12,18 @@ const projects = [
     website: "http://www.readinggoals.info/",
   },
   {
-    title: "Learn American Sign Language",
-    image: "/images/signable.png",
-    description: "ASL learning application that offers gesture recognition and real-time feedback.",
-    github: "",
-    website: "",
-  },
-  {
     title: "Instacart Shopper Tool",
     image: "/images/shopper.png",
     description:
       "An Instacart shopper tool that uses real-time route data from Google to calculate drive time and estimate hourly pay before accepting an order.",
     github: "https://github.com/rachelmalbert/shopper.git",
+    website: "",
+  },
+  {
+    title: "Learn American Sign Language",
+    image: "/images/signable.png",
+    description: "ASL learning application that offers gesture recognition and real-time feedback.",
+    github: "",
     website: "",
   },
 ];
