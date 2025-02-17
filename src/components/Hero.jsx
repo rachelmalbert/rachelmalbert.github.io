@@ -12,7 +12,7 @@ function Hero() {
         <div className="left">
           <h3>Hi, my name is</h3>
           <h1>Rachel Albert</h1>
-          <p class="degree">Computer Science Graduate</p>
+          <p class="degree">Full-Stack Web Developer</p>
           <div class="hero-contact-links">
             <a href="https://www.linkedin.com/in/rachel-albert/" class="contact-link" target="_blank">
               <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn Icon" />
@@ -40,36 +40,4 @@ function Hero() {
 
 export default Hero;
 
-// HERO WITH ICON
 
-//  <section id="hero" className="hero">
-//    <div className="overlay"></div> {/* The overlay div */}
-//    <Navbar />
-//    <div className="hero-content">
-//      <div>
-//        <h1>RACHEL ALBERT</h1>
-//        <p>Software Engineer</p>
-//        <a href="#about" className="cta-button">
-//          Download Resume
-//        </a>
-//      </div>
-//      <img src={image} width="100"></img>
-//    </div>
-//    <button className="scroll-btn"> V </button>
-//    {/* <div className="scroll-btn"></div> */}
-//  </section>
-
-// HERO WITHOUT ICON
-
-//  <section id="hero" className="hero">
-//    <div className="overlay"></div> {/* The overlay div */}
-//    <Navbar />
-//    <div className="hero-content">
-//      <h1>RACHEL ALBERT</h1>
-//      <p>Software Engineer</p>
-//      <a href="#about" className="cta-button">
-//        Download Resume
-//      </a>
-//    </div>
-//    <button className="scroll-btn"> V </button>
-//  </section>

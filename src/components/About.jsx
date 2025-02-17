@@ -7,22 +7,15 @@ const About = () => {
   return (
     <section id="about" className="about">
       <img src="/images/layla.jpg" className="about-photo">
-        {/* Photo<img src="/images/layla.jpg"></img> */}
       </img>
       <div className="about-content">
         <div className="about-me">
           <h2>About Me</h2>
           <p>
-            {/* Hi! I'm a recent Computer Science graduate with a passion for creating software that solves real-world problems. I really enjoy learning
-            new technologies and tackling new challenges. Currently, I’m looking for a role where I can apply my skills and continue to grow as a
-            developer. */}
-            Hi, I'm Rachel! I’m a recent Computer Science graduate with a passion for creating software that solves real-world problems. I’m
+            Hello, I'm Rachel! I’m a recent Computer Science graduate with a passion for creating software that solves real-world problems. I’m
             particularly interested in database systems and web development, and I love exploring new technologies to overcome interesting challenges.
             I’m currently looking for an opportunity where I can apply my skills and continue growing as a developer.
           </p>
-          {/* <button className="resume-btn">
-            <i class="fa-solid fa-download download-icon"></i> Download Resume
-          </button> */}
           <a href="/Albert_Rachel_Resume.pdf" class="resume-btn" download>
             <i class="fa-solid fa-download download-icon"></i> Download Resume
           </a>

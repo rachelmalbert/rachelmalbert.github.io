@@ -1,14 +1,13 @@
 .about {
   display: flex;
   width: 100%;
-  /* background-color: #f4f4f4; */
   justify-content: center;
   align-items: center;
   gap: 2rem;
   overflow: hidden;
-  text-align: justify;
+  text-align: left;
   padding: 5rem 0rem;
-  /* border: 2px solid green; */
+  line-height: 2rem;
 }
 
 .about-photo {
